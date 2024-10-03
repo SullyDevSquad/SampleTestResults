@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1727980289" lines-covered="3" lines-valid="3" branches-covered="0" branches-valid="0">
+  <sources>
+    <source>/</source>
+  </sources>
+  <packages>
+    <package name="Calculator" line-rate="1" branch-rate="1" complexity="3">
+      <classes>
+        <class name="Calculator.Calculator" filename="Users/ssulei7/Documents/Repos/dotnet-unit-test-example/Calculator/Calculator.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="Add" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Subtract" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Multiply" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="1" branch="False" />
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
