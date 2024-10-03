@@ -12,7 +12,7 @@ jobs:
 
       - name: Execute unit tests
         run: | 
-          dotnet test --no-build --logger "trx;LogFileName=test_results.trx" /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
+          dotnet test --logger "trx;LogFileName=test_results.trx" /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
 
       - name: Upload UnitTest results as an artifact
         uses: actions/upload-artifact@v3
